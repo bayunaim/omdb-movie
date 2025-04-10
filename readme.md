@@ -48,10 +48,14 @@ The application follows the MVC (Model-View-Controller) architecture:
 
 ## Screenshots
 
-![Login Page](public/images/login.png)
-![Movie List](public/images/movie-list.png)
-![Movie Detail](public/images/movie-detail.png)
-![Favorites](public/images/favorite.png)
+-   Login Page
+    ![Login Page](public/images/login.png)
+-   Movie List Page
+    ![Movie List](public/images/movie-list.png)
+-   Movie Detail Page
+    ![Movie Detail](public/images/movie-detail.png)
+-   Favorite Page
+    ![Favorites](public/images/favorite.png)
 
 ## Installation
 
