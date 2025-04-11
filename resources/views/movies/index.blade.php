@@ -6,19 +6,21 @@
 <div class="container">
     <div class="row mb-4">
         <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">{{ __('messages.Search Movies') }}</div>
+            <div class="card bg-dark text-white">
+                <div class="card-header border-bottom border-secondary">
+                    {{ __('messages.Search Movies') }}
+                </div>
                 <div class="card-body">
                     <form id="search-form">
                         <div class="form-row">
                             <div class="form-group col-md-5">
-                                <input type="text" id="title" name="s" class="form-control" placeholder="{{ __('messages.Title') }}" value="{{ $search ?? '' }}">
+                                <input type="text" id="title" name="s" class="form-control bg-dark text-white border-secondary" placeholder="{{ __('messages.Title') }}" value="{{ $search ?? '' }}">
                             </div>
                             <div class="form-group col-md-3">
-                                <input type="text" id="year" name="y" class="form-control" placeholder="{{ __('messages.Year') }}" value="{{ $year ?? '' }}">
+                                <input type="text" id="year" name="y" class="form-control bg-dark text-white border-secondary" placeholder="{{ __('messages.Year') }}" value="{{ $year ?? '' }}">
                             </div>
                             <div class="form-group col-md-3">
-                                <select name="type" id="type" class="form-control">
+                                <select name="type" id="type" class="form-control bg-dark text-white border-secondary">
                                     <option value="">{{ __('messages.All Types') }}</option>
                                     <option value="movie" {{ isset($type) && $type == 'movie' ? 'selected' : '' }}>{{ __('messages.Movie') }}</option>
                                     <option value="series" {{ isset($type) && $type == 'series' ? 'selected' : '' }}>{{ __('messages.Series') }}</option>

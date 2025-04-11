@@ -28,12 +28,19 @@
             text-align: center;
             color: #666;
         }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ddd;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
     </style>
     @yield('styles')
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Movie App') }}
