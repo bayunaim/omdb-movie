@@ -11,6 +11,7 @@ This is a Laravel 5.8 application that allows users to search for movies using t
 -   Multi-language support (English/Indonesian)
 -   Favorite movie management
 -   Responsive design
+-   Login throttling to prevent brute-force attacks (rate limiting failed login attempts)
 
 ## Libraries Used
 
